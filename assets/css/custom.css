@@ -1,0 +1,323 @@
+
+.map{
+  position: relative;
+  height: 700px;
+  z-index: 3;
+}
+.contact-us{
+  position: absolute;
+  height: 309px;
+  width: 400px;
+  z-index: 4;
+  padding: 10px;
+  background-color:rgb(233,233,233);
+  margin-left: -1px;
+  margin-top: 10px;
+  text-align: center;
+  border: 2px double grey;
+
+
+
+}
+footer{
+  background-color: black;
+
+  height: 40px;
+text-align: center;
+  margin-top: -40px;
+
+}
+.decoration-line{
+  font-size: 55px;
+}
+
+
+  .d-line{
+    width: 22%;
+    height: 2px;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .about-deco{
+    font-size: 50px;
+    color: grey;
+
+  }
+  .about-d-line{
+    width: 22%;
+    height:2px;
+    border-bottom: 5px solid grey;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .provide-deco{
+      font-size: 50px;
+      color: rgb(99, 81, 49);
+  }
+  .provide-d-line{
+    width: 22%;
+    height:2px;
+    border-bottom: 5px solid rgb(99, 81, 49);
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+
+
+#header h3{
+  margin-top: 6%;
+  font-size: 849%;
+  font-family:'Raleway',sans-serif;
+
+}
+#header{
+  text-align: center;
+  margin: -4px 1px;
+  background-image: url("../img/coverphoto.jpeg");
+  color: white;
+}
+@media (max-width: 500px){
+  #header{
+    width: 320px;
+    height: 480px;
+    text-align: center;
+  }
+  #header h3{
+    margin-top: 6%;
+    font-size: 300%;
+    text-align: center;
+    background-size: cover;
+
+
+  }
+
+  #header p{
+    font-size: 20px;
+    margin:1px auto 10px;
+  }
+#numbers p{
+  font-size: 17px;
+  text-align: center;
+
+}
+#numbers {
+  text-align: center;
+}
+#our-famous-products p{
+  font-size: 120%;
+}
+#our-famous-products2 img{
+  width:380px;
+}
+.contact-us{
+  width: 200px;
+}
+.map{
+
+
+
+width:320;
+height: 320;
+}
+footer{
+  text-align:left;
+}
+
+
+
+
+
+}
+
+#header p{
+  font-size: 24px;
+  margin: 2px auto 20px;
+
+}
+
+#header i{
+  font-size: 30px;
+  color: white;
+}
+.header i{
+  border: 2px solid white;
+
+}
+
+#about h3{
+  font-size: 44px;
+  font-family: 'Raleway',sans-serif;
+  margin-top: 9%;
+  text-align: center;
+
+}
+
+#about{
+  text-align: center;
+  margin: 0 11%;
+
+}
+#about p{
+  margin-top: 1%;
+  font-size: 170%;
+  text-align: center;
+}
+#gallery img{
+  width: 100%;
+  height: 200px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#what-we-provide{
+  text-align: center;
+}
+#what-we-provide h3{
+  font-size: 44px;
+  font-family: 'Raleway',sans-serif;
+  margin-top: 6%;
+  text-align: center;
+}
+#what-we-provide2{
+  margin: 15px 8% 1px;
+}
+#what-we-provide2 h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+#what-we-provide2 p{
+font-size: 16px;
+text-align: center;
+color:rgba(142, 137, 147, 0.9);
+}
+#what-we-provide2 i{
+  font-size:50px;
+  color: rgb(99, 81, 49);
+}
+#our-famous-products{
+  text-align: center;
+}
+#our-famous-products h3{
+  font-size: 44px;
+  font-family: 'Raleway',sans-serif;
+  margin-top: 6%;
+  text-align: center;
+}
+#our-famous-products p{
+  margin-top: 1%;
+  font-size: 170%;
+  text-align: center;
+}
+#our-famous-products2 h3{
+  text-align: center;
+  font-family:'Raleway',fantasy;
+  font-weight: bold;
+  font-size: 24px;
+}
+#our-famous-products2 p{
+  font-size: 16px;
+  text-align: center;
+  color:rgba(142, 137, 147, 0.9);
+
+}
+#our-famous-products2 img{
+  width: 100%;
+  height: 250px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+
+
+
+#our-famous-products3 h3{
+  text-align: center;
+  font-family:'Raleway',fantasy;
+  font-weight: bold;
+  font-size: 24px;
+}
+#our-famous-products3 p{
+  font-size: 16px;
+  text-align: center;
+  color:rgba(142, 137, 147, 0.9);
+
+}
+#our-famous-products3 img{
+  width: 100%;
+  height: 250px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.btn btn-link{
+  font-size: 57px;
+}
+#meet-our-team{
+  text-align: center;
+}
+#meet-our-team p{
+  font-size: 16px;
+  text-align: center;
+  color:rgba(142, 137, 147, 0.9);
+  margin-bottom: 30px;
+}
+#meet-our-team h4{
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#meet-our-team h3{
+  font-size: 44px;
+  margin-top: 108px;
+  font-family:fantasy;
+  font-weight: bold;
+
+}
+#meet-our-team img{
+  border: 7px double rgba(55, 22, 5, 0.9);
+}
+
+.team-members{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solidrgb(31, 14, 4);
+}
+.social-icons{
+  border-top: 4px solid grey;
+  width:30%;
+}
+.social-icons i{
+  font-size: 20px;
+}
+#numbers{
+  text-align: center;
+}
+#numbers h3{
+  font-size: 44px;
+  margin-top: 108px;
+  font-family:fantasy;
+  font-weight: bold;
+}
+#numbers p{
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#numbers h4{
+  font-size: 34px;
+
+}
+#numbers h2{
+  margin-bottom: 108px;
+
+}
+
+#numbers h5{
+  font-size: 26px;
+}
